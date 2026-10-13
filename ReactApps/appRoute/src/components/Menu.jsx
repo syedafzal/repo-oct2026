@@ -6,21 +6,21 @@ import Login from './Login';
 export default function Menu(){
     return (
 <>
-<BrowserRouter>
+{/* <BrowserRouter> */}
 <nav>
-    <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
+    <Link to="/menu/">Home</Link>
+    <Link to="/menu/about">About</Link>
 
-    <Link to="/contact">Contact</Link>
+    <Link to="/menu/contact">Contact</Link>
 
     <Routes>
-        <Route path="/" element={<Login></Login>}></Route>
+        <Route path="/" element={<Home></Home>}></Route>
           <Route path="/about" element={<About></About>}></Route>
             <Route path="/contact" element={<Contact></Contact>}></Route>
 
     </Routes>
 </nav>
-</BrowserRouter>
+{/* </BrowserRouter> */}
 </>
 
 );

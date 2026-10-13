@@ -11,10 +11,10 @@ export default function Login(){
     if (username === "admin" && password === "secret123") {
        alert("Login successful");
         // Login successful
-        //  navigate("/menu");
+         navigate("/menu");
 
     } else {
-    //    navigate("/login-failed");
+       navigate("/login-failed");
         alert("Invalid credentials");
 
     }
