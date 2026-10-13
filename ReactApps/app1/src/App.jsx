@@ -9,6 +9,7 @@ import MyAppClass from './component/MyAppClass'
 
 import Accounts from './component/Accounts'
 import User from './component/User'
+import Box from './component/Box'
 function App() {
   const [count, setCount] = useState(0)
 const location = "Bangalore";
@@ -22,6 +23,8 @@ const location = "Bangalore";
     <Accounts name="Sam" acType="Savings" balance="10000"></Accounts>
 
     <User></User>
+    <Box> This is boxed text</Box>
+    <Box> {location}</Box>
     </>
   )
 }
