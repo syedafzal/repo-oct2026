@@ -8,6 +8,7 @@ import Person from './component/Person'
 import MyAppClass from './component/MyAppClass'
 
 import Accounts from './component/Accounts'
+import User from './component/User'
 function App() {
   const [count, setCount] = useState(0)
 const location = "Bangalore";
@@ -19,6 +20,8 @@ const location = "Bangalore";
     <MyAppClass></MyAppClass>
     <p>{location}</p>
     <Accounts name="Sam" acType="Savings" balance="10000"></Accounts>
+
+    <User></User>
     </>
   )
 }
