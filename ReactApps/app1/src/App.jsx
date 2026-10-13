@@ -10,11 +10,13 @@ import MyAppClass from './component/MyAppClass'
 import Accounts from './component/Accounts'
 import User from './component/User'
 import Box from './component/Box'
+import Count from './component/Count'
 function App() {
   const [count, setCount] = useState(0)
 const location = "Bangalore";
   return (
     <>
+    <Count></Count>
     <div>Hello World</div>
     <MyData></MyData>
     <Person pname="Syed" job="Software Engineer"> </Person>
