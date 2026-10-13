@@ -6,15 +6,19 @@ import './App.css'
 import MyData from './component/MyData'
 import Person from './component/Person'
 import MyAppClass from './component/MyAppClass'
+
+import Accounts from './component/Accounts'
 function App() {
   const [count, setCount] = useState(0)
-
+const location = "Bangalore";
   return (
     <>
     <div>Hello World</div>
     <MyData></MyData>
     <Person pname="Syed" job="Software Engineer"> </Person>
     <MyAppClass></MyAppClass>
+    <p>{location}</p>
+    <Accounts name="Sam" acType="Savings" balance="10000"></Accounts>
     </>
   )
 }
