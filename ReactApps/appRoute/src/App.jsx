@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <h1>Routes</h1>
+    <h1>Management Portal</h1>
       <BrowserRouter>
 
             <Routes>
