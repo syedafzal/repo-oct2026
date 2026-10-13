@@ -11,6 +11,7 @@ import Accounts from './component/Accounts'
 import User from './component/User'
 import Box from './component/Box'
 import Count from './component/Count'
+import Life from './component/Life'
 function App() {
   const [count, setCount] = useState(0)
 const location = "Bangalore";
@@ -27,6 +28,7 @@ const location = "Bangalore";
     <User></User>
     <Box> This is boxed text</Box>
     <Box> {location}</Box>
+    <Life></Life>
     </>
   )
 }
